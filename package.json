@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --ext js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hidanscript/apollo-graphql.git"
+  },
+  "author": "David Marcano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hidanscript/apollo-graphql/issues"
+  },
+  "homepage": "https://github.com/hidanscript/apollo-graphql#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.15",
+    "graphql": "^14.5.8",
+    "pg": "^7.17.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  }
+}

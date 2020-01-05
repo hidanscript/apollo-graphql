@@ -1,0 +1,14 @@
+{
+    "serverPort": 5000,
+    "db": {
+        "host": "localhost",
+        "dialect": "postgres",
+        "database": "graphql",
+        "username": "cms",
+        "password": "123456789"
+    },
+    "security": {
+        "secretKey": "some-secret-key",
+        "expiresIn": "7d"
+    }
+}
